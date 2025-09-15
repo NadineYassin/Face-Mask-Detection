@@ -7,7 +7,7 @@ import os
 import time
 
 # Load the trained model with error handling and caching
-MODEL_PATH = r"D:\AI- SU25\Final app deep learning\best_model.keras"
+MODEL_PATH = r"best_model.keras"
 
 @st.cache_resource
 def load_model():
